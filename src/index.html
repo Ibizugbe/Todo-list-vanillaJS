@@ -9,13 +9,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700"
+    />
   </head>
   <body>
     <header></header>
     <main>
       <section id="todo">
         <div class="todo-container">
-          <h1 class="todo-title">Today's To Do</h1>
+          <div class="todo-head">
+            <h1 class="todo-title">Today's Tasks</h1>
+            <button class="refresh">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </button>
+          </div>
           <form class="todo-form">
             <input
               type="text"
@@ -23,7 +32,7 @@
               class="todo-input"
             />
             <button class="todo-btn">
-              <i class="fa-solid fa-arrows-rotate"></i>
+              <i class="fa-solid fa-up-right-from-square"></i>
             </button>
           </form>
           <ul class="todo-list"></ul>
