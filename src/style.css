@@ -51,6 +51,7 @@ input {
   height: 40px;
   padding: 0 10px 0 10px;
   background-color: #f7f7f7;
+  width: 85%;
 }
 
 .todo-btn {
