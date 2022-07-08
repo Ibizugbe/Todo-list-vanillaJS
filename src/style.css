@@ -59,6 +59,10 @@ input {
   background-color: #f7f7f7;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 .todo-form {
   margin: 20px;
   background-color: #f7f7f7;
@@ -81,4 +85,19 @@ input {
 .todo-description {
   font-size: 12px;
   margin-left: 10px;
+}
+
+.clear-btn {
+  background-color: black;
+  color: white;
+  font-size: 9px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
 }
