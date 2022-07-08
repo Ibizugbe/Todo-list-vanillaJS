@@ -2,8 +2,6 @@
 import _ from "lodash";
 import "./style.css";
 
-const todoInput = document.querySelector(".todo-input");
-const todoBtn = document.querySelector(".todo-btn");
 const myList = document.querySelector(".todo-list");
 
 const todoList = [
