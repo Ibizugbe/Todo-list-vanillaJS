@@ -14,7 +14,7 @@ const display = () => {
     lists.innerHTML = `
       <div class="description">
         <input type="checkbox" />
-        <input class="editTask" type="text"  value="${task.description}">
+        <input class="todo-description" type="text"  value="${task.description}">
       </div>
       <div class="ellipses-icon">
         <i class="fa-solid fa-trash-can" id="${task.index}"></i>
