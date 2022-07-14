@@ -7,8 +7,7 @@ const clearBtn = document.querySelector('.clear-btn');
 
 let taskList = [];
 
-const display = () => {
-  myList.innerHTML = '';
+export const display = () => {
   taskList = JSON.parse(localStorage.getItem('localItem')) || [];
   taskList.forEach((task) => {
     const myList = document.querySelector('.todo-list');
@@ -55,7 +54,7 @@ todoBtn.addEventListener('click', (e) => {
   display();
 });
 
-const removeTask = (index) => {
+export const removeTask = (index) => {
   const newArr = taskList.filter((element) => element.index !== index);
   taskList.length = 0;
   let i = 0;
