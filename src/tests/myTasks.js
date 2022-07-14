@@ -13,17 +13,17 @@ export const deleteTodo = (id) => {
   const listArray = [
     {
       id: 0,
-      title: "first-task",
+      title: 'first-task',
       completed: false,
     },
     {
       id: 1,
-      title: "second-task",
+      title: 'second-task',
       completed: false,
     },
     {
       id: 2,
-      title: "third-task",
+      title: 'third-task',
       completed: false,
     },
   ];
@@ -35,17 +35,17 @@ export const updateTodo = (id, title, completed) => {
   const listArray = [
     {
       id: 0,
-      title: "first-task",
+      title: 'first-task',
       completed: false,
     },
     {
       id: 1,
-      title: "second-task",
+      title: 'second-task',
       completed: false,
     },
     {
       id: 2,
-      title: "third-task",
+      title: 'third-task',
       completed: false,
     },
   ];
@@ -54,5 +54,4 @@ export const updateTodo = (id, title, completed) => {
   return listArray[itemIndex];
 };
 
-export const removeTodo = (list) =>
-  list.filter((todo) => todo.completed === false);
+export const removeTodo = (list) => list.filter((todo) => todo.completed === false);
