@@ -13,17 +13,17 @@ export const deleteTodo = (id) => {
   const listArray = [
     {
       id: 0,
-      title: "first-test",
+      title: "first-task",
       completed: false,
     },
     {
       id: 1,
-      title: "second-test",
+      title: "second-task",
       completed: false,
     },
     {
       id: 2,
-      title: "third-test",
+      title: "third-task",
       completed: false,
     },
   ];
@@ -35,17 +35,17 @@ export const updateTodo = (id, title, completed) => {
   const listArray = [
     {
       id: 0,
-      title: "first-test",
+      title: "first-task",
       completed: false,
     },
     {
       id: 1,
-      title: "second-test",
+      title: "second-task",
       completed: false,
     },
     {
       id: 2,
-      title: "third-test",
+      title: "third-task",
       completed: false,
     },
   ];

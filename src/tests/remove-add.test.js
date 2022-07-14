@@ -9,25 +9,25 @@ describe("add_delete_test", () => {
     const listArray = [
       {
         id: 0,
-        title: "first-test",
+        title: "first-task",
         completed: false,
       },
       {
         id: 1,
-        title: "second-test",
+        title: "second-task",
         completed: false,
       },
       {
         id: 2,
-        title: "third-test",
+        title: "third-task",
         completed: false,
       },
     ];
     const quest = (id) => listArray.filter((item) => item.id !== id);
 
-    expect(addTodo("first-test")).toBe(1);
-    expect(addTodo("second-test")).toBe(1);
-    expect(addTodo("third-test")).toBe(1);
+    expect(addTodo("first-task")).toBe(1);
+    expect(addTodo("second-task")).toBe(1);
+    expect(addTodo("third-task")).toBe(1);
     expect(deleteTodo(0)).toEqual(quest(0));
     expect(deleteTodo(1)).toEqual(quest(1));
     expect(deleteTodo(2)).toEqual(quest(2));
