@@ -6,7 +6,7 @@ import {
 } from './myTasks';
 // test for add and remove
 
-describe('add_delete_test', () => {
+describe('add_delete_tasks', () => {
   it('add_delete_Todo', () => {
     const listArray = [
       {
@@ -72,13 +72,13 @@ describe('test_DOM', () => {
   });
 });
 // show whether task is completed
-describe('edit_status_test', () => {
+describe('edit_status_tasks', () => {
   it('edit_completed_status_Todo', () => {
     expect(updateTodo(0, 'test', true).completed).toBe(true);
   });
 });
 // to edit tasks description
-describe('edit_description_test', () => {
+describe('edit_description_tasks', () => {
   it('edit_description_Todo', () => {
     expect(updateTodo(0, 'clifford', true).title).toBe('clifford');
   });
