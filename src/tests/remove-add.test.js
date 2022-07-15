@@ -1,10 +1,12 @@
 /**
  * @jest-environment jsdom
  */
-import { addTodo, deleteTodo, removeTodo } from './myTasks';
+import {
+  addTodo, deleteTodo, removeTodo, updateTodo,
+} from './myTasks';
 // test for add and remove
 
-describe('add_delete_test', () => {
+describe('add_delete_tasks', () => {
   it('add_delete_Todo', () => {
     const listArray = [
       {
@@ -54,5 +56,30 @@ describe('clear completed tasks', () => {
       },
     ];
     expect(removeTodo(listArray)).toEqual([]);
+  });
+});
+
+// test to add element to html document
+describe('test_DOM', () => {
+  it('test_DOM', () => {
+    const list = document.createElement('ul');
+    list.id = 'todo-list';
+    const listItem = document.createElement('li');
+    listItem.id = 'todo-item';
+    listItem.innerHTML = 'test';
+    list.appendChild(listItem);
+    expect(list.innerHTML).toBe('<li id="todo-item">test</li>');
+  });
+});
+// show whether task is completed
+describe('edit_status_tasks', () => {
+  it('edit_completed_status_Todo', () => {
+    expect(updateTodo(0, 'test', true).completed).toBe(true);
+  });
+});
+// to edit tasks description
+describe('edit_description_tasks', () => {
+  it('edit_description_Todo', () => {
+    expect(updateTodo(0, 'clifford', true).title).toBe('clifford');
   });
 });
