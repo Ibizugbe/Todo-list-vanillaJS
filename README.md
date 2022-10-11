@@ -15,9 +15,9 @@
 [See webpage here](https://ibizugbe.github.io/Todo-list-vanillaJS/)
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Abraham Ibizugbe**
 
 - GitHub: [@githubhandle](https://github.com/Ibizugbe/)
 - Twitter: [@twitterhandle](https://twitter.com/AbrahamIbizugbe)
