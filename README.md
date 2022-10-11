@@ -8,7 +8,6 @@
 ## Built With
 
 - HTML, CSS, javaScript.
-- Frameworks
 - Webpack, webhint, stylelint and eslint. 
 
 ## Live Demo
