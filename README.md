@@ -19,9 +19,9 @@
 
 👤 **Abraham Ibizugbe**
 
-- GitHub: [@githubhandle](https://github.com/Ibizugbe/)
-- Twitter: [@twitterhandle](https://twitter.com/AbrahamIbizugbe)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)
+- GitHub: [Ibizugbe](https://github.com/Ibizugbe/)
+- Twitter: [abrahamibizugbe](https://twitter.com/AbrahamIbizugbe)
+- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)
 
 
 ## 🤝 Contributing
