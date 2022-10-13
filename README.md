@@ -2,7 +2,7 @@
 
 # To Do List
 
-> This software is used to monitor and manage your tasks.
+> A "To-do list" is a tool that helps to organize your daily activities. It lists the tasks you need to get done. You can add, edit and it also allows you to check them when they are completed.
 
 
 ## Built With
